@@ -1,0 +1,18 @@
+# Linux Terminal Navigation and File Operations
+
+## Commands Practiced:
+- `cd folder1`, `cd ..`, `cd ~`
+- `pwd` → shows current path
+- `ls`, `ls -l`, `ls -a` → list files, long format, show hidden
+- `mv fileA.txt folder1/` → move file
+- `mv fileB.txt folder2/renamedB.txt` → move and rename
+- `touch .hiddenfile` → create hidden file
+- `tree` → view folder structure
+
+## Folder Structure:
+navigation-test/
+├── .hiddenfile
+├── folder1/
+│   └── fileA.txt
+├── folder2/
+│   └── renamedB.txt

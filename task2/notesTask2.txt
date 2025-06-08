@@ -1,0 +1,12 @@
+# Basic Linux Commands Practiced
+
+## Commands:
+- `mkdir basic-commands` → create a folder
+- `cd basic-commands` → go into that folder
+- `touch file1.txt file2.txt notes.md` → create files
+- `mkdir subfolder && cd subfolder` → create and enter subdirectory
+- `touch sub.txt` → create file inside subfolder
+- `cd ..` → move back to parent
+- `rm file2.txt` → delete a file
+- `rm -r subfolder` → delete folder and its contents
+- `ls` → list current directory contents

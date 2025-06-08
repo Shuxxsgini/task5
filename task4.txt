@@ -1,0 +1,23 @@
+# User and Group Management in Linux
+
+## Commands Used:
+
+### Create Group
+- `sudo groupadd devgroup`
+
+### Create User
+- `sudo useradd -m -s /bin/bash devuser`
+- `sudo passwd devuser`
+
+### Add User to Group
+- `sudo usermod -aG devgroup devuser`
+- `groups devuser`
+
+### Directory Permissions
+- `mkdir dev-folder`
+- `sudo chown :devgroup dev-folder`
+- `sudo chmod 770 dev-folder`
+
+### Cleanup
+- `sudo userdel -r devuser`
+- `sudo groupdel devgroup`

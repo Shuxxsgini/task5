@@ -1,0 +1,15 @@
+# Linux File Permission Task
+
+## File Created:
+- `task1.txt` using `touch`
+
+## Permissions Tried:
+- `chmod 754` → Owner: rwx, Group: r-x, Others: r--
+- `chmod 700` → Owner only full access
+- `chmod 777` → Everyone full access
+- `chmod 644` → Common for text files
+
+## Commands Used:
+touch task1.txt  
+chmod 754 task1.txt  
+ls -l task1.txt
