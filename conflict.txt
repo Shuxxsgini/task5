@@ -1,1 +1,4 @@
+Resolved: Combined both lines
+Line from task9 branch
 Another line from master branch
+
